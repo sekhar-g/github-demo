@@ -1,0 +1,23 @@
+Using Transparency
+CSS gradients also support transparency, which can be used to create fading effects.
+
+To add transparency, we use the rgba() function to define the color stops. 
+The last parameter in the rgba() function can be a value from 0 to 1, c
+and it defines the transparency of the color: 0 indicates full transparency, 
+1 indicates full color (no transparency).
+
+The following example shows a linear gradient that starts from the left. 
+It starts fully transparent, transitioning to full color red:
+
+CSS gradients let you display smooth transitions between two or more specified colors.
+
+CSS defines three types of gradients:
+
+Linear Gradients (goes down/up/left/right/diagonally)
+Radial Gradients (defined by their center)
+Conic Gradients (rotated around a center point)
+CSS Linear Gradients
+To create a linear gradient you must define at least two color stops. 
+Color stops are the colors you want to render smooth transitions among. 
+You can also set a starting point and a direction (or an angle) 
+along with the gradient effect.
